@@ -38,16 +38,6 @@
   start: tinyFan
   graph:
   - node: start
-  #  edges:
-  #  - to: tinyFan
-  #    steps:
-  #    - material: Gold
-  #      amount: 4
-  #      doAfter: 1
-  #    - material: Steel
-  #      amount: 4
-  #      doAfter: 2  
-
   - node: tinyFan
     entity: AtmosDeviceFanTiny
     edges:
@@ -55,10 +45,10 @@
       completed:
       - !type:SpawnPrototype
         prototype: SheetSteel1
-        amount: 4
+        amount: 2
       - !type:SpawnPrototype
         prototype: IngotGold1
-        amount: 4
+        amount: 1
       - !type:DeleteEntity
       steps:
       - tool: Welding
