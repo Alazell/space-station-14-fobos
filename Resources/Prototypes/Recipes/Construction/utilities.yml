@@ -874,7 +874,7 @@
 
 # FAN
 - type: construction
-  name: Little directional fan
+  name: little directional fan
   id: LitleFan
   description: Fan to hold the air in and space outside.
   graph: Fan

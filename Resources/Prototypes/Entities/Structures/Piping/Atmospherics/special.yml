@@ -54,6 +54,8 @@
   - type: Tag
     tags:
       - SpreaderIgnore
-  - type: Construction # DS14-start
+  # DS14-start
+  - type: Construction
     graph: Fan
-    node: litleFan # DS14-end
+    node: litleFan
+  # DS14-end
