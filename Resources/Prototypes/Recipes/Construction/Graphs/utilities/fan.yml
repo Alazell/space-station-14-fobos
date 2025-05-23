@@ -9,21 +9,26 @@
       - material: Gold
         amount: 1
         doAfter: 1
+      - material: Steel
+        amount: 2
+        doAfter: 2
 
   - node: litleFan
     entity: AtmosDeviceFanDirectional
     edges:
     - to: start
-      conditions:
-      - !type:EntityAnchored
-        anchored: false
       completed:
       - !type:SpawnPrototype
         prototype: IngotGold1
         amount: 1
+      - !type:SpawnPrototype
+        prototype: SheetSteel1
+        amount: 2
       - !type:DeleteEntity
       steps:
       - tool: Screwing
         doAfter: 1
       - tool: Welding
-        doAfter: 1
+        doAfter: 4
+      - tool: Prying
+        doAfter: 2
