@@ -1,10 +1,10 @@
 - type: constructionGraph
-  id: Fan
+  id: DirFan
   start: start
   graph:
   - node: start
     edges:
-    - to: litleFan
+    - to: littleDirectionalFan
       steps:
       - material: Gold
         amount: 1
@@ -13,7 +13,7 @@
         amount: 2
         doAfter: 2
 
-  - node: litleFan
+  - node: littleDirectionalFan
     entity: AtmosDeviceFanDirectional
     edges:
     - to: start
@@ -26,9 +26,46 @@
         amount: 2
       - !type:DeleteEntity
       steps:
-      - tool: Screwing
-        doAfter: 1
       - tool: Welding
         doAfter: 4
+      - tool: Screwing
+        doAfter: 1
+      - tool: Prying
+        doAfter: 2
+
+- type: constructionGraph
+  id: LittleFan
+  start: tinyFan
+  graph:
+  - node: start
+  #  edges:
+  #  - to: tinyFan
+  #    steps:
+  #    - material: Gold
+  #      amount: 4
+  #      doAfter: 1
+  #    - material: Steel
+  #      amount: 4
+  #      doAfter: 2  
+
+  - node: tinyFan
+    entity: AtmosDeviceFanTiny
+    edges:
+    - to: start
+      completed:
+      - !type:SpawnPrototype
+        prototype: SheetSteel1
+        amount: 4
+      - !type:SpawnPrototype
+        prototype: IngotGold1
+        amount: 4
+      - !type:DeleteEntity
+      steps:
+      - tool: Welding
+        doAfter: 5
+      - tool: Screwing
+        doAfter: 2
+      - tool: Cutting
+        doAfter: 1
       - tool: Prying
         doAfter: 2

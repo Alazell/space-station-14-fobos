@@ -25,6 +25,11 @@
   - type: Tag
     tags:
       - SpreaderIgnore
+  # DS14-start
+  - type: Construction
+    graph: LittleFan
+    node: tinyFan
+  # DS14-end
 
 - type: entity
   id: AtmosDeviceFanDirectional
@@ -56,6 +61,6 @@
       - SpreaderIgnore
   # DS14-start
   - type: Construction
-    graph: Fan
-    node: litleFan
+    graph: DirFan
+    node: littleDirectionalFan
   # DS14-end
