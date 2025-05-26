@@ -1,0 +1,46 @@
+- type: entity
+  parent: ClothingBeltStorageBase
+  id: ClothingEngineerWebbing
+  name: Engineering webbing
+  description: Can hold various things.
+  components:
+  - type: Sprite
+    sprite: _DeadSpace/Clothing/Belt/engwebbing.rsi
+  - type: Clothing
+    sprite: _DeadSpace/Clothing/Belt/engwebbing.rsi
+  - type: Storage
+    maxItemSize: Normal
+    # TODO: Fill this out more.
+    whitelist:
+      tags:
+        - Powerdrill
+        - Wirecutter
+        - Crowbar
+        - Screwdriver
+        - Flashlight
+        - Wrench
+        - GeigerCounter
+        - Flare
+        - CableCoil
+        - CigPack
+        - Radio
+        - HolofanProjector
+        - Multitool
+        - AppraisalTool
+        - JawsOfLife
+        - GPS
+        - WeldingMask
+      components:
+        - StationMap
+        - SprayPainter
+        - NetworkConfigurator
+        - RCD
+        - RCDAmmo
+        - Welder
+        - PowerCell
+        - Geiger
+        - TrayScanner
+        - GasAnalyzer
+        - HandLabeler
+    sprite: _DeadSpace/Clothing/Belt/engwebbing.rsi
+  - type: Appearance

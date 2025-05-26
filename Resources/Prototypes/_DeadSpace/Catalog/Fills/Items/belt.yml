@@ -14,3 +14,31 @@
       - id: Gauze
       - id: EmergencyMedipen #You never know what people are going to latejoin into
         amount: 2
+
+- type: entity
+  id: ClothingEngineerWebbingFilled
+  parent: ClothingEngineerWebbing
+  suffix: Filled
+  components:
+  - type: StorageFill
+    contents:
+      - id: Crowbar
+      - id: Wrench
+      - id: Screwdriver
+      - id: Wirecutter
+      - id: Welder
+      - id: NetworkConfigurator
+
+- type: entity
+  id: ClothingEngineerWebbingEngineering
+  parent: ClothingEngineerWebbing
+  suffix: Engineering
+  components:
+  - type: StorageFill
+    contents:
+      - id: CrowbarYellow
+      - id: Wrench
+      - id: Screwdriver
+      - id: Wirecutter
+      - id: Welder
+      - id: Multitool
