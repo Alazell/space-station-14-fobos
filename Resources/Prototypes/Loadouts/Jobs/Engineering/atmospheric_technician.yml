@@ -41,6 +41,17 @@
   equipment:
     outerClothing: ClothingOuterCoatAtmosWorking
 
+# Belt
+- type: loadout
+  id: AtmosphericTechnicianBeltUtility
+  equipment:
+    belt: ClothingBeltUtilityEngineering
+
+- type: loadout
+  id: AtmosphericTechnicianBeltWebbing
+  equipment:
+    belt: ClothingEngineerWebbingEngineering
+
 # Shoes
 - type: loadout
   id: WhiteShoes

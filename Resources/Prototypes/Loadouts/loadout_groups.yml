@@ -1049,6 +1049,15 @@
   - UnderwearTopBraEngineer
   - UnderwearBottomPantiesEngineer
 
+  # DS14-start
+- type: loadoutGroup
+  id: StationEngineerBelt
+  name: loadout-group-station-engineer-belt
+  loadouts:
+  - StationEngineerBeltUtility
+  - StationEngineerBeltWebbing
+  # DS14-end
+
 - type: loadoutGroup
   id: AtmosphericTechnicianJumpsuit
   name: loadout-group-atmospheric-technician-jumpsuit
@@ -1089,6 +1098,15 @@
   - UnderwearBottomBoxersAtmosphericTechnician
   - UnderwearTopBraAtmosphericTechnician
   - UnderwearBottomPantiesAtmosphericTechnician
+
+  # DS14-start
+- type: loadoutGroup
+  id: AtmosphericTechnicianBelt
+  name: loadout-group-atmospheric-technician-belt
+  loadouts:
+  - StationEngineerBeltUtility
+  - StationEngineerBeltWebbing
+  # DS14-end
 
 - type: loadoutGroup
   id: SurvivalExtended

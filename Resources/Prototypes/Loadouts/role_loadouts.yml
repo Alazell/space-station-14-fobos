@@ -298,6 +298,7 @@
   - StationEngineerOuterClothing
   - StationEngineerShoes
   - StationEngineerID
+  - StationEngineerBelt
   - SurvivalExtended
   - Trinkets
   - GroupSpeciesBreathTool
@@ -311,6 +312,7 @@
   - AtmosphericTechnicianBackpack
   - AtmosphericTechnicianOuterClothing
   - AtmosphericTechnicianShoes
+  - AtmosphericTechnicianBelt
   - SurvivalExtended
   - Trinkets
   - GroupSpeciesBreathTool

@@ -106,6 +106,17 @@
   equipment:
     outerClothing: ClothingOuterWinterEngi
 
+# Belt
+- type: loadout
+  id: StationEngineerBeltUtility
+  equipment:
+    belt: ClothingBeltUtilityEngineering
+
+- type: loadout
+  id: StationEngineerBeltWebbing
+  equipment:
+    belt: ClothingEngineerWebbingEngineering
+
 # Shoes
 - type: loadout
   id: WorkBoots
