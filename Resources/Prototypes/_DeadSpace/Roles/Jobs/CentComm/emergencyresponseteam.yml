@@ -481,7 +481,7 @@
     shoes: ClothingShoesBootsWork
     head: ClothingHeadHelmetERTEngineer
     id: ERTEngineerIDCard
-    belt: ClothingBeltUtilityEngineering
+    belt: ClothingEngineerWebbingEngineering
     pocket1: DoubleEmergencyOxygenTankFilled
   storage:
     back:
